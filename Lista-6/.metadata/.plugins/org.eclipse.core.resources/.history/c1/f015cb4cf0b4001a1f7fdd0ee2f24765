@@ -1,0 +1,48 @@
+package petsitter;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Opcoes {
+	private ArrayList<Profissional> profissionais;
+	private ArrayList<Cliente> clientes;
+	private Scanner scanner;
+	
+	public Opcoes() {
+		profissionais = new ArrayList<Profissional>();
+		clientes = new ArrayList<Cliente>();
+		scanner = new Scanner(System.in);
+		
+	}
+	
+	public void cadastrarProfissional() {
+		System.out.println("\nNome:\n");
+		String name = scanner.next();
+		
+		System.out.println("\nEmail: ");
+		String email = scanner.next();
+		
+		System.out.println("\nCPF:\n");
+		String cpf = scanner.next();
+		
+		System.out.println("\nEndereço:\n");
+		System.out.println("Rua: \n");
+		String rua = scanner.next();
+		System.out.println("Numero: \n");
+		int numero = scanner.nextInt();
+		System.out.println("CEP: \n");
+		String cep = scanner.next();
+		System.out.println("Bairro: \n");
+		String bairro = scanner.next();
+		System.out.println("Cidade: \n");
+		String cidade = scanner.next();
+		
+		System.out.println("\nTelefone: ");
+		String telefone = scanner.next();
+		
+		Profissional news = new Profissional(name, email, )
+		
+		
+	}
+
+}

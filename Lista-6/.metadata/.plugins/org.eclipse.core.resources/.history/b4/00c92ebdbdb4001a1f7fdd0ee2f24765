@@ -1,0 +1,19 @@
+package petsitter;
+
+
+public class Menu {
+	public static void options() {
+		System.out.println('Cadastro: ');
+		
+		
+	}
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+
+	}
+
+}

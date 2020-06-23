@@ -1,0 +1,52 @@
+package petsitter;
+
+import java.util.Scanner;
+
+public class Menu {
+	public static void Options() {
+		System.out.println("Cadastro: ");
+		System.out.println("\n1 - Adicionar Profissional");
+		System.out.println("\n2 - Adicionar Cliente");
+		System.out.println("\n3 - Editar Cadastro");
+		System.out.println("\n4 - Excluir");
+		System.out.println("\n5 - Consultar");
+		System.out.println("\n6 - Sair");
+		System.out.println("\n - Opção: ");
+	}
+
+	public static void main(String[] args) {
+		int option;
+		Scanner opc = new Scanner(System.in);
+		
+		do {
+			Options();
+			option = opc.nextInt();
+			
+			switch(option) {
+			case 1:
+				//cadastrarProfissional();
+				break;
+			case 2:
+				//adicionar();
+				break;
+			case 3:
+				//editar();
+				break;
+			case 4:
+				//excluir();
+				break;
+			case 5:
+				//consultar();
+				break;
+			case 6:
+				//
+				break;
+			default:
+				System.out.println("Opção inválida");
+			}
+			
+		}while(option != 5);
+		
+	}
+
+}
