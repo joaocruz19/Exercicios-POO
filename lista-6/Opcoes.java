@@ -62,7 +62,7 @@ public class Opcoes {
 			System.out.println("Contato adicionado");
 		}
 		
-		if (options == 2) {
+		else if (options == 2) {
 			System.out.println("Cadastrar Cliente");
 			System.out.println("\nNome: \n");
 			String name = scanner.next();

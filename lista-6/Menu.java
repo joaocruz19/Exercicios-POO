@@ -3,7 +3,7 @@ package petsitter;
 import java.util.Scanner;
 
 public class Menu {
-	public static void Options() {
+	public static void renderOptions() {
 		System.out.println("Cadastro: ");
 		System.out.println("\n1 - Cadastar");
 		System.out.println("\n2 - Editar Cadastro");
@@ -15,34 +15,32 @@ public class Menu {
 
 	public static void main(String[] args) {
 		int option;
-		Scanner opc = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		
 		do {
-			Options();
-			option = opc.nextInt();
+			renderOptions();
+			option = input.nextInt();
 			
 			switch(option) {
-			case 1:
-				//Register;
-				break;
-			case 2:
-				//Editar;
-				break;
-			case 3:
-				//Excluir();
-				break;
-			case 4:
-				//Consultar();
-				break;
-			case 5:
-				//
-				break;
-			default:
-				System.out.println("Opção inválida");
+				case 1:
+					//Register;
+					break;
+				case 2:
+					//Editar;
+					break;
+				case 3:
+					//Excluir();
+					break;
+				case 4:
+					//Consultar();
+					break;
+				case 5:
+					//
+					break;
+				default:
+					System.out.println("Opção inválida");
 			}
 			
-		}while(option != 6);
-		
+		} while(option != 5);
 	}
-
 }

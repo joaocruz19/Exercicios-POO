@@ -1,20 +1,19 @@
 package petsitter;
 
 public class Endereco {
-	public String rua;
-	public int numero;
-	public String cep;
-	public String bairro;
-	public String cidade;
-	public String estado;
+	public String street;
+	public int number;
+	public String zipCode;
+	public String neighborhood;
+	public String city;
+	public String state;
 	
-	public Endereco(String rua, int numero, String cep, String bairro, String cidade, String estado) {
-		this.rua = rua;
-		this.numero = numero;
-		this.cep = cep;
-		this.bairro = bairro;
-		this.cidade = cidade;
-		this.estado = estado;
+	public Endereco(String street, int number, String zipCode, String neighborhood, String city, String state) {
+		this.street = street;
+		this.number = number;
+		this.zipCode = zipCode;
+		this.neighborhood = neighborhood;
+		this.city = city;
+		this.state = state;
 	}
-
 }

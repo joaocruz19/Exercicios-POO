@@ -8,6 +8,14 @@ public class Cadastro {
 	private String telefone;
 	private Animal ani;
 	
+	public Cadastro(String name, String email, String cpf, Endereco end, String telefone) {
+		this.name = name;
+		this.email = email;
+		this.cpf = cpf;
+		this.end = end;
+		this.telefone = telefone;
+	}
+
 	public String getName() {
 		return name;
 	}
@@ -46,18 +54,6 @@ public class Cadastro {
 
 	public void setEmail(String email) {
 		this.email = email;
-	}
-	
-	public Cadastro(String name, String email, String cpf, Endereco end, String telefone) {
-		this.name = name;
-		this.email = email;
-		this.cpf = cpf;
-		this.end = end;
-		this.telefone = telefone;
-	}
-
-	public Cadastro(String name2, String email2, String cpf2, Endereco end2, String telefone2, Animal ani2) {
-		// TODO Auto-generated constructor stub
 	}
 
 	public Animal getAni() {
